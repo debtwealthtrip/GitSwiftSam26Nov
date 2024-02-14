@@ -15,7 +15,7 @@ struct Meeting {
 struct ContentView: View {
     @State private var isPresented = false
     let meetings = [
-        Meeting(title: "Motion", description: "I move that ..."),
+        Meeting(title: "Motion", description: "Hello ..."),
         Meeting(title: "Debate", description: "Call the question+2nd"),
         Meeting(title: "Vote", description: "Yay Nay Abstrain"),
         Meeting(title: "Result", description: "Carry Fail Amend"),
